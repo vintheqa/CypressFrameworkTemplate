@@ -3,7 +3,7 @@ import { BaseObject, PageObject} from "../support/pageObjects"
 const $BaseObject = new BaseObject();
 const $PageObject = new PageObject();
 
-describe("Live Dashboard Smoke Test", () => {
+describe("Login Page", () => {
   beforeEach(() => {
     $BaseObject.sampleMethod();
   });
