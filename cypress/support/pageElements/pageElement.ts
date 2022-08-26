@@ -1,3 +1,4 @@
 export const pageElements = {
-  elementLocator: '[data-testid="xxx"]',
+  elementLocator1: 'div[data-testid="xxx"]',
+  elementLocator2: 'button[class*="xxx"]',
 };
